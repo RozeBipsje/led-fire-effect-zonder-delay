@@ -17,7 +17,7 @@ unsigned long previousMillis = 0;        // will store last time LED was updated
 const long interval = random(8);           // interval at which to blink (milliseconds)
 
 void setup() {
-  // set the digital pin as output:
+  // set the digital pin as output: 
   pinMode(led_1_Pin, OUTPUT);
   pinMode(led_2_Pin, OUTPUT);
   pinMode(led_3_Pin, OUTPUT);
